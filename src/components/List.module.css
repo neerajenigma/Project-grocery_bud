@@ -1,0 +1,30 @@
+#lmain{
+    width: 100%;
+    margin: 1%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+#tex{
+    width: 80%;
+    font-size: 23px;
+}
+#ed{
+    border: none;
+    width: 10%;
+    border-radius: 5%;
+    background-color: rgba(15, 231, 65, 0.586);
+}
+#del{
+    border: none;
+    width: 10%;
+    border-radius: 5%;
+    background-color: rgba(241, 31, 12, 0.734);
+}
+@media(width<600px){
+    #tex{
+        width: 80%;
+        font-size: 3.5vw;
+    }
+}
+
